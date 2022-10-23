@@ -5,3 +5,4 @@ lib/node-drive-example/
 !main.ts
 !drive.google.ts
 !.gitignore
+!*.html
