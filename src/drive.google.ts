@@ -39,6 +39,7 @@ export const handler = async (host: string, request: Request) => {
 			return await generateAPIChannel();
 		}
 		if (request.url === `${host}/notification`) {
+			console.log(request);
 			return Response.redirect(`${host}`);
 		}
 		return new Response(HTML, {
